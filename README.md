@@ -4,7 +4,7 @@
 
 **Course:** Understanding Language Models
 
-Partial reproduction of [Zhao et al. (2021), *Calibrate Before Use*](https://proceedings.mlr.press/v139/zhao21c.html) with extensions for the modelo OPT-13B and Qwen3-8B-Base. We compare accuracy before/after calibration and variability across demonstration seeds. The accompanying paper has more information on the changes, methods, results, and limitations.
+Partial reproduction of [Zhao et al. (2021), *Calibrate Before Use*](https://proceedings.mlr.press/v139/zhao21c.html) with extensions for the models OPT-13B and Qwen3-8B-Base. We compare accuracy before/after calibration and variability across demonstration seeds. The accompanying paper has more information on the changes, methods, results, and limitations.
 
 ## Contents
 
@@ -14,7 +14,7 @@ Partial reproduction of [Zhao et al. (2021), *Calibrate Before Use*](https://pro
 - `sst2_independent_gpt2xl.ipynb`: independent GPT-2 XL implementation for SST-2
 - `saved_results/`: main experiment outputs when included
 
-The code in the .py files is adapted from the [authors' code](https://github.com/tonyzhaozh/few-shot-learning). The changes made are for compatibility with, OPT/Qwen support, and removal of unused GPT-3/API code. The main sampling and calibration process is kept.
+The code in the .py files is adapted from the [authors' code](https://github.com/tonyzhaozh/few-shot-learning). The changes made are for compatibility, for OPT / Qwen support and removal of unused GPT-3/API code. The main sampling and calibration process is kept.
 
 ## Setup
 
